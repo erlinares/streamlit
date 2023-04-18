@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np 
 import pandas as pd
 import plotly.offline as py 
-py.init_notebook_mode(connected=True) # this code, allow us to work with offline plotly version
+#py.init_notebook_mode(connected=True) # this code, allow us to work with offline plotly version
 import plotly.graph_objs as go # it's like "plt" of matplot
 import plotly.tools as tls # It's useful to we get some tools of plotly
 import matplotlib.pyplot as plt
@@ -30,8 +30,6 @@ import tensorflow as tf
 from sklearn.metrics import roc_curve, auc, roc_auc_score
 from sklearn.metrics import accuracy_score, confusion_matrix, fbeta_score, classification_report
 
-# Initialize the Plotly notebook mode
-py.init_notebook_mode(connected=True)
 
 st.title("Credit Card App")
 

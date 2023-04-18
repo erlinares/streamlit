@@ -30,6 +30,9 @@ import tensorflow as tf
 from sklearn.metrics import roc_curve, auc, roc_auc_score
 from sklearn.metrics import accuracy_score, confusion_matrix, fbeta_score, classification_report
 
+# Initialize the Plotly notebook mode
+py.init_notebook_mode(connected=True)
+
 st.title("Credit Card App")
 
 uploaded_file = None

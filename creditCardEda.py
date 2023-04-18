@@ -5,7 +5,7 @@ import plotly.offline as py
 #py.init_notebook_mode(connected=True) # this code, allow us to work with offline plotly version
 import plotly.graph_objs as go # it's like "plt" of matplot
 import plotly.tools as tls # It's useful to we get some tools of plotly
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 #librerias de modelado
 from sklearn.model_selection import train_test_split

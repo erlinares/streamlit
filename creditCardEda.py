@@ -6,7 +6,7 @@ import plotly.offline as py
 import plotly.graph_objs as go # it's like "plt" of matplot
 import plotly.tools as tls # It's useful to we get some tools of plotly
 #import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 #librerias de modelado
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
